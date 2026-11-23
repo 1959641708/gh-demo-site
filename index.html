@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>部署成功 · GitHub Pages</title>
+<style>
+  :root { --ink:#0b1220; --sub:#5b6478; --line:#e6e9f0; --accent:#2f6bff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body {
+    font-family:-apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    color:var(--ink); background:#fbfcfe; min-height:100vh;
+    display:flex; align-items:center; justify-content:center; padding:32px 20px;
+  }
+  .card {
+    width:100%; max-width:620px; background:#fff; border:1px solid var(--line);
+    border-radius:18px; padding:44px 36px; box-shadow:0 20px 50px -30px rgba(11,18,32,.35);
+  }
+  .badge {
+    display:inline-flex; align-items:center; gap:8px; font-size:13px; letter-spacing:.4px;
+    color:#12a150; background:#eafaf0; border:1px solid #c9f0d8;
+    padding:6px 12px; border-radius:999px; margin-bottom:22px;
+  }
+  h1 { font-size:32px; line-height:1.25; letter-spacing:-.5px; margin-bottom:14px; }
+  p.lead { color:var(--sub); font-size:16px; line-height:1.7; margin-bottom:28px; }
+  .meta { border-top:1px solid var(--line); padding-top:22px; font-size:14px; color:var(--sub); }
+  .meta div { display:flex; justify-content:space-between; padding:7px 0; }
+  .meta b { color:var(--ink); font-weight:600; }
+  code { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13px;
+         background:#f3f5f9; padding:2px 6px; border-radius:5px; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <span class="badge">● 构建与部署均已通过</span>
+    <h1>这是一份真实部署上线的页面</h1>
+    <p class="lead">
+      它由 GitHub Actions 在云端自动构建，产物直接发布到 GitHub Pages。
+      改动 <code>index.html</code> 并 push 到 main 分支，这个地址会在几十秒内自动更新。
+    </p>
+    <div class="meta">
+      <div><span>托管平台</span><b>GitHub Pages</b></div>
+      <div><span>构建方式</span><b>Actions · upload-pages-artifact</b></div>
+      <div><span>触发条件</span><b>push → main</b></div>
+      <div><span>站点类型</span><b>静态 HTML</b></div>
+    </div>
+  </main>
+</body>
+</html>
